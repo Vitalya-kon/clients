@@ -361,56 +361,5 @@
     <script src="plugins/bootstrap-material-datetimepicker/js/bootstrap-material-datetimepicker.js"></script>
     <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.js"></script>
     <script src="plugins/bootstrap-material-datetimepicker/js/material-date-picker-init.js"></script>
-    <script>
-      $('.date-fr').bootstrapMaterialDatePicker({
-          format : 'DD/MM/YYYY HH:mm', 
-          lang : 'fr', 
-          weekStart : 1, 
-          cancelText : 'ANNULER' 
-        });
-      $('.date-second').bootstrapMaterialDatePicker({ weekStart : 0, time: false });
-// -----------DataTables
-      var data = [
-    [
-        "00000001",
-        "КЦ 1",
-        "Иванов Иван Иванович",
-        "88008888888",
-        "01.01.2001 10.00",
-        "Иванов И.И",
-        "Договор",
-        "7",
-        "14",
-    ],
-    [
-        "00000002",
-        "КЦ 2",
-        "Петров Петр Петрович",
-        "88008877788",
-        "02.02.2002 20.00",
-        "Петров П.П",
-        "Отклонен",
-        "4",
-        "10",
-    ]
-]
-    $(document).ready( function () {
-        var table =  $('#myTable').DataTable({
-          columns: [
-            { title: '№ Клиента' },
-            { title: 'Источник' },
-            { title: 'ФИО' },
-            { title: 'Номер телефона' },
-            { title: 'Дата / Время посещения' },
-            { title: 'Консультант' },
-            { title: 'Статус' },
-            { title: 'Приходы' },
-            { title: 'Договоры' },
-            { title: '' },
-          ]
-      });
-    });
-
-    </script>
   </body>
 </html>
