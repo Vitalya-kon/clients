@@ -91,45 +91,11 @@ body {
   line-height: 2.1875rem;
 }
 
-.badge-default {
-  background: #adb6c7;
-}
 
-.badge-success {
-  background-color: #1bd084;
-}
 
-.badge-secondary {
-  background-color: #8bc740;
-}
 
-.badge-info {
-  background-color: #48a9f8;
-}
 
-.badge-primary {
-  background-color: var(--primary);
-}
 
-.badge-warning {
-  background-color: #fe8024;
-}
-
-.badge-danger {
-  background-color: #ff6746;
-}
-
-.badge-dark {
-  background-color: #b1b1b1;
-}
-
-.badge-light {
-  background-color: #babbbf;
-}
-
-.light.badge-default {
-  background: #adb6c7;
-}
 
 .light.badge-success {
   background-color: #b7f6db;
@@ -143,26 +109,10 @@ body {
   background: #dbeefe;
   color: #48a9f8;
 }
-[data-theme-version="dark"] .light.badge-info {
-  background-color: rgba(72, 169, 248, 0.1);
-}
 
-.light.badge-primary {
-  background: #ae93ee;
-  color: var(--primary);
-}
-[data-theme-version="dark"] .light.badge-primary {
-  background-color: var(--rgba-primary-1);
-}
 
-.light.badge-secondary {
-  background: #ebf5de;
-  color: #8bc740;
-}
-[data-theme-version="dark"] .light.badge-secondary {
-  background-color: rgba(139, 199, 64, 0.5);
-  color: #fff;
-}
+
+
 
 .light.badge-warning {
   background-color: #fff0e5;
@@ -180,38 +130,11 @@ body {
   background-color: rgba(255, 103, 70, 0.15);
 }
 
-.light.badge-dark {
-  background-color: #f1f1f1;
-  color: #b1b1b1;
-}
-[data-theme-version="dark"] .light.badge-dark {
-  background-color: rgba(177, 177, 177, 0.35);
-  color: #fff;
-}
 
-.bootstrap-label .label {
-  display: inline-block;
-  margin-right: 1rem;
-}
-.bootstrap-label .label:last-child {
-  margin-right: 0;
-}
 
-.badge-demo .badge {
-  margin-right: 0.3125rem;
-  margin-bottom: 0.3125rem;
-}
-.badge-demo .badge:last-child {
-  margin-right: 0;
-}
 
-.bootstrap-badge-buttons button {
-  margin-right: 0.2rem;
-  margin-bottom: 1rem;
-}
-.bootstrap-badge-buttons button:last-child {
-  margin-right: 0;
-}
+
+
 .jsgrid-grid-body::-webkit-scrollbar,
 .dataTables_scrollBody::-webkit-scrollbar,
 .table-responsive::-webkit-scrollbar {
@@ -236,9 +159,7 @@ body {
   background-color: var(--primary);
 }
 
-table.dataTable tbody td {
-  background: #fff !important;
-}
+
 
 table.dataTable thead th {
   color: #000;
@@ -246,15 +167,11 @@ table.dataTable thead th {
   white-space: nowrap;
   font-weight: 600;
 }
-[data-theme-version="dark"] table.dataTable thead th {
-  color: #fff;
-}
 @media only screen and (max-width: 1400px) {
   table.dataTable thead th {
     font-size: 14px;
   }
 }
-
 table.dataTable tbody td {
   font-size: 16px;
   padding: 22px 15px;
@@ -264,10 +181,6 @@ table.dataTable tbody td {
     padding: 8px 15px;
     font-size: 14px;
   }
-}
-
-table.dataTable tr.selected {
-  color: var(--primary);
 }
 
 table.dataTable tfoot th {
@@ -352,3 +265,29 @@ table.dataTable tfoot th {
   background: #fff !important;
   color: var(--primary) !important;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
